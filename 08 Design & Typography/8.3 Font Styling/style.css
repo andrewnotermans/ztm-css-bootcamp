@@ -1,0 +1,28 @@
+.text-container {
+    width: 50ch;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.05em;
+    background-color: whitesmoke;
+    padding: 5px 20px;
+    border-radius: 10px;
+    text-align: left;
+    
+
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 2em;
+    text-decoration: underline wavy hotpink;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.vertical-text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 10px;
+}
