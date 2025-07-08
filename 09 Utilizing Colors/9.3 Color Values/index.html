@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color values</title>
+
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEX Color -->
+<div class="color-section">
+    <p>HEX Color: <span id="hexValue">#FFFFFF</span></p>
+    <input type="color" id="hexInput" value="#FFFFFF">
+    <div class="color-box" id="hexBox"></div>
+</div>
+
+<!-- RGB Color -->
+<div class="color-section">
+    <p>RGB Color: 
+        R: <span id="redValue">255</span>, 
+        G: <span id="greenValue">255</span>, 
+        B: <span id="blueValue">255</span>
+    </p>
+    R: <input type="range" id="redInput" min="0" max="255" value="255">
+    G: <input type="range" id="greenInput" min="0" max="255" value="255">
+    B: <input type="range" id="blueInput" min="0" max="255" value="255">
+    <div class="color-box" id="rgbBox"></div>
+</div>
+
+<!-- HSL Color -->
+<div class="color-section">
+    <p>HSL Color: 
+        H: <span id="hueValue">360</span>, 
+        S: <span id="saturationValue">100</span>%, 
+        L: <span id="lightnessValue">50</span>%
+    </p>
+    H: <input type="range" id="hueInput" min="0" max="360" value="360">
+    S: <input type="range" id="saturationInput" min="0" max="100" value="100">
+    L: <input type="range" id="lightnessInput" min="0" max="100" value="50">
+    <div class="color-box" id="hslBox"></div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
