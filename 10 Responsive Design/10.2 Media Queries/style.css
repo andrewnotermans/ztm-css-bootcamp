@@ -1,0 +1,81 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+#display {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Monitor size */
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: #9DC9D6; /* Light blue */
+  }
+  #display::before {
+    content: "Monitor Size";
+  }
+}
+
+/* Laptop size */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  body {
+    background-color: #A0DAA9; /* Light green */
+  }
+  #display::before {
+    content: "Laptop Size";
+  }
+}
+
+/* Tablet size (landscape) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    background-color: #F7DCB4; /* Light orange */
+  }
+  #display::before {
+    content: "Tablet Size (Landscape)";
+  }
+}
+
+/* Tablet size (portrait) */
+@media screen and (min-width: 481px) and (max-width: 767px) and (orientation: portrait) {
+  body {
+    background-color: #F7B5C4; /* Light pink */
+  }
+  #display::before {
+    content: "Tablet Size (Portrait)";
+  }
+}
+
+/* Smartphone size (landscape) */
+@media screen and (min-width: 321px) and (max-width: 700px) and (orientation: landscape) {
+  body {
+    background-color: #C2A1F7; /* Light purple */
+  }
+  #display::before {
+    content: "Smartphone Size (Landscape)";
+  }
+}
+
+/* Smartphone size (portrait) */
+@media screen and (max-width: 480px) and (orientation: portrait) {
+  body {
+    background-color: #FFE0A9; /* Light yellow */
+  }
+  #display::before {
+    content: "Smartphone Size (Portrait)";
+  }
+}
