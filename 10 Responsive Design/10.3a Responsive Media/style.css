@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: silver;
+    margin: auto;
+    box-sizing: content-box;
+    padding-bottom: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: darkcyan;
+    padding: 20px;
+    margin: 0;
+}
+
+h2 {
+    text-align: left;
+    color: darkcyan;
+    padding: 0 20px;
+    margin: 0;
+}
+
+p {
+    padding: 0 20px;
+    position: relative;
+    top: -10px;
+    
+}
+
+img, svg, picture {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.first-img {
+    padding: 5px;
+    border: 2px dashed black;
+}
+
+svg {
+    margin: 20px auto;
+}
