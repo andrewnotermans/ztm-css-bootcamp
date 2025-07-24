@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <!-- Example for `order` -->
+    <div class="flex-container order-demo">
+        <div class="flex-item" style="order: 3;">A (Order 3)</div>
+        <div class="flex-item" style="order: 1;">B (Order 1)</div>
+        <div class="flex-item" style="order: 2;">C (Order 2)</div>
+    </div>
+
+    <!-- Example for `flex-grow` -->
+    <div class="flex-container grow-demo">
+        <div class="flex-item" style="flex-grow: 1;">(Grow 1)</div>
+        <div class="flex-item" style="flex-grow: 2;">(Grow 2)</div>
+        <div class="flex-item">(No Grow)</div>
+    </div>
+
+    <!-- Example for `flex-shrink` -->
+    <div class="flex-container shrink-demo">
+        <div class="flex-item" style="flex-shrink: 2; flex-basis: 300px;">(Shrink 2)</div>
+        <div class="flex-item" style="flex-shrink: 3; flex-basis: 300px;">(Shrink 3)</div>
+        <div class="flex-item" style="flex-basis: 300px;">(No Shrink)</div>
+    </div>
+
+    <!-- Example for `flex-basis` -->
+    <div class="flex-container basis-demo">
+        <div class="flex-item" style="flex-basis: 100px;">(Basis 100px)</div>
+        <div class="flex-item" style="flex-basis: 50%;">(Basis 50%)</div>
+        <div class="flex-item">(Default)</div>
+    </div>
+
+    <!-- Example for `flex` -->
+    <div class="flex-container flex-demo">
+        <div class="flex-item" style="flex: 1 1 100px;">(1 1 200px)</div>
+        <div class="flex-item" style="flex: 2 2 100px;">(2 2 100px)</div>
+        <div class="flex-item">(Default)</div>
+    </div>
+
+    <!-- Example for `align-self` -->
+    <div class="flex-container align-self-demo" style="height: 200px;">
+        <div class="flex-item" style="align-self: flex-start;">(Start)</div>
+        <div class="flex-item" style="align-self: center;">(Center)</div>
+        <div class="flex-item" style="align-self: flex-end;">(End)</div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>

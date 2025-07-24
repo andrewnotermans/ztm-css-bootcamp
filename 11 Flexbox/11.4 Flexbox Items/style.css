@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    width: 95%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.flex-item {
+    background-color: #007BFF;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px;
+}
