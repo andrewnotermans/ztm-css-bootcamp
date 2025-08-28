@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: whitesmoke;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  text-align: center;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
+  min-width: 500px;
+}
+
+.donate {
+  font-size: 50px;
+  color: #e74c3c;
+  cursor: pointer;
+  transition: font-size 2s steps(5);
+
+  &:hover {
+    font-size: 250px;
+  }
+}
