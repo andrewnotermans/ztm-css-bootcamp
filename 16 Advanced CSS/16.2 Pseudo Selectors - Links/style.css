@@ -1,0 +1,99 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f9fc;
+  margin: 0;
+  padding: 40px 0;
+}
+
+.container {
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.container h3 {
+  color: #2c3e50;
+  border-bottom: 1px solid #eaeef3;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.container a {
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+li {
+  margin: 10px 0;
+}
+
+/* Pseudo-class hierarchy for links:
+   1. :link
+   2. :visited
+   3. :hover
+   4. :focus
+   5. :active
+*/
+
+/* 1. Unvisited link */
+.container a:link {
+    color: #1976D2; /* Default link color */
+}
+
+/* 2. Visited link */
+.container a:visited {
+  color: #FF5566; /* Orange Red */
+}
+
+/* 3. Mouse over link */
+.container a:hover {
+  background-color: #E1F5FE; /* Light Blue */
+  color: #01579B; /* Dark Blue */
+}
+
+/* 4. Selected link */
+.container a:focus {
+  background-color: #FFECB3; /* Light Yellow */
+  color: #FF6F00; /* Orange */
+  outline: none;
+}
+
+/* 5. Active link */
+.container a:active {
+  background-color: #FFCDD2; /* Light Red */
+  color: #D32F2F; /* Dark Red */
+}
+
+/* ::first-letter pseudo-class */
+.demo-text::first-letter {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* ::first-line pseudo-class */
+.demo-text::first-line {
+  text-decoration: underline;
+}
+
+/* ::selection pseudo-class */
+::selection {
+  background-color: #FFE0B2; /* Light Orange */
+  color: #000;
+}
+
+/* ::marker pseudo-class */
+li::marker {
+  color: #FF6F00; /* Orange */
+}
