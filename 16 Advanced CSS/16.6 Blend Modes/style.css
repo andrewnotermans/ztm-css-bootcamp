@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+select {
+  margin-bottom: 15px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.base-image,
+.blend-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 85vh;
+    display: block;
+}
+
+.blend-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

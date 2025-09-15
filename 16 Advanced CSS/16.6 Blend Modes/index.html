@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Blend Modes Gallery</h1>
+<div class="container">
+  <select id="blend-mode-selector">
+    <option value="normal">Normal</option>
+    <option value="multiply">Multiply</option>
+    <option value="screen">Screen</option>
+    <option value="overlay">Overlay</option>
+    <option value="darken">Darken</option>
+    <option value="lighten">Lighten</option>
+    <option value="color-dodge">Color Dodge</option>
+    <option value="color-burn">Color Burn</option>
+    <option value="hard-light">Hard Light</option>
+    <option value="soft-light">Soft Light</option>
+    <option value="difference">Difference</option>
+    <option value="exclusion">Exclusion</option>
+    <option value="hue">Hue</option>
+    <option value="saturation">Saturation</option>
+    <option value="color">Color</option>
+    <option value="luminosity">Luminosity</option>
+  </select>
+  <div class="image-container">
+    <img class="base-image" src="https://cdn.midjourney.com/05291a40-ea10-4f68-ae5f-c28292e3ecb8/0_0.png" alt="Base Image">
+    <img class="blend-image" src="https://cdn.midjourney.com/1537128a-b740-4e91-8fe6-a583dd35b5b4/0_3.webp" alt="Blend Image">
+  </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
