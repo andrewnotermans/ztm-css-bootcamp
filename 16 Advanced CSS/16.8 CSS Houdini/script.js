@@ -1,0 +1,1 @@
+CSS.paintWorklet.addModule('https://unpkg.com/parallelowow@0.1.5/parallelowow.js');
