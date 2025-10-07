@@ -1,0 +1,38 @@
+$base-color: hsl(200, 100%, 50%);
+
+.color-box {
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  background: $base-color;
+}
+
+.lighten-color {
+  background: lighten($base-color, 20%);
+}
+
+.darken-color {
+  background: darken($base-color, 20%);
+}
+
+.adjust-color {
+  background: adjust-color($base-color, $lightness: 20%, $saturation: -50%);
+}
+
+.scale-color {
+  background: scale-color($base-color, $lightness: 50%, $saturation: -30%);
+}
+
+.change-color {
+  background: change-color($base-color, $red: 255, $blue: 255);
+}
+
+.mix-color {
+  background: mix($base-color, green, 50%);
+}
+
+.complement-color {
+  background: complement($base-color);
+}

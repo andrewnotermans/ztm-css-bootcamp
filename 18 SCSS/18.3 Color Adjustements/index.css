@@ -1,0 +1,38 @@
+.color-box {
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  background: hsl(200, 100%, 50%);
+}
+
+.lighten-color {
+  background: hsl(200, 100%, 70%);
+}
+
+.darken-color {
+  background: hsl(200, 100%, 30%);
+}
+
+.adjust-color {
+  background: hsl(200, 50%, 70%);
+}
+
+.scale-color {
+  background: hsl(200, 70%, 75%);
+}
+
+.change-color {
+  background: hsl(300, 100%, 83.3333333333%);
+}
+
+.mix-color {
+  background: rgb(0, 149, 127.5);
+}
+
+.complement-color {
+  background: hsl(20, 100%, 50%);
+}
+
+/*# sourceMappingURL=index.css.map */
